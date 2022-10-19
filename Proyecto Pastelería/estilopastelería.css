@@ -1,0 +1,420 @@
+* {
+    margin: 0ch;
+    padding: 0ch;
+}
+body {
+    background: #e4f2f2;
+}
+/* Cabecera de la página */
+.container {
+    background-color: #6eb5c0;
+    height: 11ch;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navegation li {
+    display: inline-block;
+    margin-left: 0ch;
+}
+.navegation {
+    float: right;
+}
+.navegation a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.header img {
+    margin-left: 2ch;
+    margin-right: 2ch;
+}
+
+/* Título principal */
+body h1, h2 {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Menú de macarrones */
+.body1 {
+    position: absolute;
+    width: 150px;
+    height: 325px;
+    background-color: #eba49b;
+    border-radius: 20px;
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+.menu1 a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.menu1 img {
+    border-radius: 150px;
+    margin-left: 7.5px;
+}
+
+.tmenu1 {
+    text-align: center;
+}
+.dmenu1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body1 ul {
+    list-style: none;
+    width: 150px;
+    height: 325px;
+}
+
+/* Menú de cupcakes */
+.body2 {
+    position: absolute;
+    width: 150px;
+    height: 325px;
+    background-color: #eba49b;
+    border-radius: 20px;
+    float: right;
+    margin-left: 405px;
+    margin-top: 15px;
+}
+
+.menu2 a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.menu2 img {
+    border-radius: 150px;
+    margin-left: 7.5px;
+}
+
+.tmenu2 {
+    text-align: center;
+}
+.dmenu2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body2 ul {
+    list-style: none;
+}
+
+/* Menú pastel de bodas */
+.body3 {
+    position: absolute;
+    width: 150px;
+    height: 325px;
+    background-color: #eba49b;
+    border-radius: 20px;
+    float: right;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+
+.menu3 a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.menu3 img {
+    border-radius: 150px;
+    margin-left: 7.5px;
+}
+
+.tmenu3 {
+    text-align: center;
+}
+.dmenu3 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body3 ul {
+    list-style: none;
+}
+
+/* Menú de donas */
+.body4 {
+    position: absolute;
+    width: 150px;
+    height: 325px;
+    background-color: #eba49b;
+    border-radius: 20px;
+    float: right;
+    margin-left: 795px;
+    margin-top: 15px;
+}
+
+.menu4 a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.menu4 img {
+    border-radius: 150px;
+    margin-left: 7.5px;
+}
+
+.tmenu4 {
+    text-align: center;
+}
+.dmenu4 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body4 ul {
+    list-style: none;
+}
+
+/* Menú de galletas */
+.body5 {
+    position: absolute;
+    width: 150px;
+    height: 325px;
+    background-color: #eba49b;
+    border-radius: 20px;
+    float: right;
+    margin-left: 990px;
+    margin-top: 15px;
+}
+
+.menu5 a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.menu5 img {
+    border-radius: 150px;
+    margin-left: 7.5px;
+}
+
+.tmenu5 {
+    text-align: center;
+}
+.dmenu5 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body5 ul {
+    list-style: none;
+}
+
+/* Botón Orders */
+.orders {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(42, 180, 180);
+    text-align: center;  
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-top: 360px;
+}
+.orders a {
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    position:static;
+    line-height: 50px;
+}
+/* Formulario de pedidos */
+.formulario {
+    margin-top: 10px;
+    margin-left: 420px;
+    width: 500px;
+    height: 100%px;
+    background-color: #117864;
+    border-radius: 20px;
+    text-align: center;
+}
+.formulario label {
+    color: white;
+    line-height: 25px;
+}
+.d1 {
+    border-color: black;
+    border-radius: 50px;
+    width:auto;
+}
+
+.formulario img {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.op2 {
+    width: 40px;
+    margin-left: 57px;
+}
+.op3 {
+    width: 40px;
+    margin-left: 68px;
+}
+.form-order {
+    text-align: left;
+    margin-left: 75px;
+}
+
+.form-order option {
+    width: 10px;
+}
+.form-order option {
+    width: 150px;
+}
+
+.formulario h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.formulario hr {
+    border: 2px solid pink;
+    margin-right: 17.5%;
+}
+
+/* Envio y reset de formulario */
+.envio-reset {
+    text-align: center;
+}
+.op4 {
+    width: 40px;
+    margin-left: 23px;
+}
+
+.op5 {
+    width: 40px;
+    margin-left: 47px;
+}
+.op6 {
+    width: 40px;
+    margin-left: 33px;
+}
+
+/* Tablas del menú */
+.tablas-menu table {
+    border: 3px solid #336b87;
+    border-collapse: collapse;
+    margin-left: 220px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tablas-menu th {
+    border: 1px solid #336b87;
+    text-align: center;
+    background-color: #eba49b;
+    width: 180px;
+}
+.tablas-menu td {
+    background-color: aquamarine;
+    text-align: center;
+}
+.tablas-menu p {
+    margin-left: 320px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Borde de hr */
+hr {
+    border: 10px solid rgb(42, 180, 180);
+}
+
+/* Menú imagenes */
+
+.macarons-menu {
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    background-color:azure;
+    border-radius: 25px;
+}
+
+.macarons-menu figcaption {
+    width: 260px;
+}
+
+.donas-menu {
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    margin-left: 27%;
+    background-color:azure;
+    border-radius: 25px;
+    width: 38.5%;
+    margin-left: 28%;
+}
+
+.donas-menu figcaption {
+    width: 260px;
+}
+
+.pastel-menu {
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    margin-left: 27%;
+    background-color:azure;
+    border-radius: 25px;
+    width: 38.5%;
+    margin-left: 28%;
+}
+
+.pastel-menu figcaption {
+    width: 260px;
+}
+
+.cupcake-menu {
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    margin-left: 27%;
+    background-color:azure;
+    border-radius: 25px;
+    width: 38.5%;
+    margin-left: 28%;
+}
+
+.cupcake-menu figcaption {
+    width: 260px;
+}
+
+.galletas-menu {
+    display: flex;
+    padding: 3%;
+    text-align: center;
+    background-color:azure;
+    border-radius: 25px;
+    width: 38.5%;
+    margin-left: 28%;
+}
+
+.galletas-menu figcaption {
+    width: 260px;
+}
+
+/* Pie de página */
+footer {
+    background-color: aquamarine;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+.redes {
+    letter-spacing: 10px;
+    margin-top: 10px;
+}
+
+.redes img {
+    margin-top: 20px;
+}
