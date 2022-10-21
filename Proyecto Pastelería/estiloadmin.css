@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+/* Body */
+
+body {
+    width: 98.79vw;
+    height: 98.79vh;
+}
+
+/* Contenedor */
+.contenedor {
+    background-color: azure;
+}
+
+/* Header */
+.header {
+    background-color: rgba(44, 120, 115, 0.062);
+    height: 20%;
+    width: 79.2vw;
+    float: right;
+    display: flex;
+}
+
+.header h1 {
+    font-size: 100%;
+}
+
+.options-header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+}
+.header input {
+    width: 80%;
+    border: 0px transparent;
+    height: 100%;
+}
+.header article {
+    margin-left: 2%;
+    display: inline-block;
+}
+
+#notrig {
+    float: right;
+    margin-right: 3%;
+}
+
+
+
+/* Navegador de administrador */
+.nav {
+    background-color: rgb(51, 53, 53);
+    width: 19.75%;
+    height: 80%;
+    float: left;
+    font-size: 80%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#perfil {
+    width: 12vw;
+    height: 50%;
+}
+
+.nav img {
+    margin-top: 20%;
+}
+.nav a {
+    font-size: 125%;
+    text-decoration: none;
+    color: white;
+}
+
+.nav article {
+    border-bottom: .3vw solid white;
+    width: 70%;
+    text-align: left;
+    margin-left: 13%;
+}
+
+.nav article img {
+    margin-top: 25%;
+}
+#icon-nav {
+    width: 20%;
+    height: 20%;
+    margin-left: 17%;
+}
+
+/* Contenido */
+.contenido img{
+    width: 38vw;
+    height: 49%;
+    margin-left: 1%;
+}
